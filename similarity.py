@@ -1,3 +1,4 @@
+#something something something
 def similarity(x, y):
     score = 0
     if x[0] == y[0]: #first letter
@@ -13,6 +14,7 @@ def similarity(x, y):
     score += float(ccommon)/unique * 50
 
     return round(score,3)
+	print score
 
 def count_unique(x,y):
     uni_str=""  #start with an empty string
